@@ -66,4 +66,4 @@ echo "C64 disc file:        ${c64_disc_file}"
 echo "--------------------------------------------------"
 
 "${debug_exec}" -prg "${finalProgramFile}" -wait 2000 -autojmp
-#$vice_exec -moncommands $viceMonitorCommandsFile -autostartprgmode 1 $finalProgramFile
+#"${vice_exec}" -moncommands "${viceMonitorCommandsFile}" -autostartprgmode 1 "${finalProgramFile}"

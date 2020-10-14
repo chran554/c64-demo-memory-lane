@@ -833,7 +833,7 @@ scroll_text_message:
     .encoding "screencode_mixed"
 //  .text "1234567890123456789012345678901234567890"
 //  .text "1234567890123456789012345678901234567890123456789012345678901234"
-    .text @"     Hej p\$60 er! \$64ntligen har jag f\$60tt tummen ur att koda maskinkod/assembler. "
+    .text @"     Hej p\$60 er! \$64ntligen har jag f\$60tt tummen ur att koda maskinkod / assembler."
     .text @" Endast 30 \$60r senare... De varmaste h\$61lsningarna till b\$61sta v\$61nnerna p\$60"
     .text @" Viskarhultsv\$61gen i 54:an och 59:an fr\$60n 51:an."
     .text @" Det \$61r er jag tackar f\$62r s\$60 mycket fr\$60n min barndom.   "
