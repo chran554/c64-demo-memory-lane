@@ -40,7 +40,7 @@
 // To use character font bank 7, (the last possible font bank) within the current VIC bank, set memory location $D018 bit 1 through 3 to value %111 = #7. 
 // Font bitmap data start at address: <VIC bank start address> + (<font bank size> * <font bank>) = $0000 + ($800 * #7) = $3800
 
-.const   constant_font_bank = $0e
+.const   constant_font_bank = $0e // %00001110
 .const   address_font = $3800
 .const   address_font_pointer = $D018
 .const   address_font_character_lo_byte = $0A
